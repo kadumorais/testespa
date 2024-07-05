@@ -1,4 +1,4 @@
-import { Film} from "lucide-react";
+import {Film} from "lucide-react";
 import Link from "next/link";
 
 export default function NavBar() {
@@ -7,7 +7,7 @@ export default function NavBar() {
             <nav className="flex justify-between bg-slate-700 w-full p-4">
                 <div className="flex gap-2 items-center">
                     <Film className="text-amber-400" size={28} />
-                    <Link className="text-amber-400 text-2xl" href="/">Sanac Filmes</Link>
+                    <Link className="text-amber-400 text-2xl" href="/">Filmes</Link>
                 </div>
                 <Link href="/sobre">Sobre</Link>
             </nav>
