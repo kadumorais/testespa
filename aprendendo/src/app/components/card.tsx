@@ -1,5 +1,5 @@
 "use client";
-import { Bookmark, BookMarked, Star } from "lucide-react";
+import { Bookmark, BookMarked, Popcorn, Star } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useFavorito } from './../hooks/Usefavorito';
 import { getMovies } from "../actions/getMovies";
@@ -31,3 +31,5 @@ export default function Filmes({filme}: FilmesProps){
         </div>
     )
 }
+
+router
